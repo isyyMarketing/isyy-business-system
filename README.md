@@ -191,3 +191,21 @@ Regula oficială: documentația se scrie în limba română, cu diacritice corec
 
 - `.gitignore` exclude fișiere sensibile și directoare generate.
 - `.env.example` arată variabile de exemplu fără valori reale.
+
+## v1.3 — Structură pentru primul proiect real
+
+ISYY Business System v1.3 adaugă structura standard pentru pornirea oricărui proiect nou în `projects/`.
+
+După v1.3, sistemul este pregătit pentru primul proiect real: există documentație, reguli, checklist-uri, template-uri și o structură concretă de lucru.
+
+`projects/_template/` este baza de copiere pentru orice proiect nou. Pentru un proiect real, se copiază acest folder, se redenumește copia și se completează documentele din interior.
+
+### Documente noi v1.3
+
+- [Structura proiect real](docs/17-structura-proiect-real.md)
+- [Versionare ISYY Business System](docs/18-versionare-isyy-business-system.md)
+- [Branch-uri și Pull Request](docs/19-branch-uri-si-pull-request.md)
+
+### Template proiect real
+
+- [Structură standard proiect](projects/_template/README.md)
