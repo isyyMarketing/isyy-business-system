@@ -156,3 +156,38 @@ ISYY Business System v1.1 adaugă instrumente practice pentru lucru zilnic:
 ### Configurare text
 
 Fișierul `.gitattributes` normalizează fișierele text și setează fișierele Markdown la LF, pentru reducerea avertismentelor LF/CRLF pe Windows.
+
+## v1.2 — Operaționalizare
+
+ISYY Business System v1.2 ajută la pornirea primului proiect real.
+
+Această etapă adaugă pași practici pentru:
+
+- pornirea unui proiect nou;
+- lucrul corect cu `.env` și secrete;
+- verificarea înainte de commit;
+- verificarea înainte de lansare;
+- folosirea unui template de proiect nou;
+- înțelegerea template-urilor prin exemple completate.
+
+Regula oficială: documentația se scrie în limba română, cu diacritice corecte și encoding UTF-8.
+
+### Documente noi v1.2
+
+- [Cum pornești primul proiect](docs/13-cum-pornesti-primul-proiect.md)
+- [Reguli pentru .env și secrete](docs/14-reguli-env-secrete.md)
+- [Checklist înainte de commit](docs/15-checklist-inainte-de-commit.md)
+- [Checklist înainte de lansare](docs/16-checklist-inainte-de-lansare.md)
+
+### Template-uri și exemple noi v1.2
+
+- [Template proiect nou](templates/new-project-template.md)
+- [Exemplu specificație Codex](templates/codex-spec-example.md)
+- [Exemplu analiză idee de business](templates/business-idea-analysis-example.md)
+- [Exemplu MVP și validare](templates/mvp-validation-example.md)
+- [Exemplu decizie importantă](templates/decision-record-example.md)
+
+### Configurare secrete
+
+- `.gitignore` exclude fișiere sensibile și directoare generate.
+- `.env.example` arată variabile de exemplu fără valori reale.
