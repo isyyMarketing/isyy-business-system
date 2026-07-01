@@ -128,3 +128,31 @@ Statusul inițial al sistemului:
 - stack-ul oficial stabilit;
 - workflow-ul de lucru definit;
 - implementările concrete urmează după validarea specificațiilor.
+
+## v1.1 — Șabloane și reguli practice
+
+ISYY Business System v1.0 rămâne baza sistemului: viziune, roluri, principii, workflow și stack oficial.
+
+ISYY Business System v1.1 adaugă instrumente practice pentru lucru zilnic:
+
+- șabloane pentru cereri către Codex;
+- șabloane pentru analiză de business;
+- șabloane pentru decizii importante;
+- șabloane pentru MVP și validare;
+- reguli simple de securitate;
+- workflow GitHub;
+- reguli de organizare a fișierelor.
+
+### Fișiere noi v1.1
+
+- [Template specificație Codex](templates/codex-spec-template.md)
+- [Template analiză idee de business](templates/business-idea-analysis-template.md)
+- [Template decizie importantă](templates/decision-record-template.md)
+- [Template MVP și validare](templates/mvp-validation-template.md)
+- [Securitate](docs/10-securitate.md)
+- [Workflow GitHub](docs/11-github-workflow.md)
+- [Organizare fișiere](docs/12-organizare-fisiere.md)
+
+### Configurare text
+
+Fișierul `.gitattributes` normalizează fișierele text și setează fișierele Markdown la LF, pentru reducerea avertismentelor LF/CRLF pe Windows.

@@ -1,0 +1,8 @@
+* text=auto
+
+*.md text eol=lf
+
+# Scop:
+# - normalizeaza fisierele text;
+# - pastreaza fisierele Markdown cu LF;
+# - reduce avertismentele LF/CRLF pe Windows.
